@@ -1,21 +1,22 @@
 <header>
     <div class="user-controller">
+        <div class="logo"></div>
         <p id="username-label"></p>
         <div id="username-div">
             <input type="text" id="username">
-            <button class="username-btn" onclick="changeUsername()">Change username</button>
+            <button class="username-btn" onclick="changeUsername()">Salvar User</button>
 
         </div>
     </div>
 
     <div class="controller">
-        <button class="control-btn disable-btn" onclick="toggleMicrophone(this)">Open microphone</button>
-        <button class="control-btn disable-btn" onclick="toggleMute(this)">Mute</button>
-        <button class="control-btn disable-btn" onclick="toggleConnection(this)">Go online</button>
+        <button class="control-btn disable-btn" onclick="toggleMicrophone(this)">Abrir Microfone</button>
+        <button class="control-btn disable-btn" onclick="toggleMute(this)">Mutar</button>
+        <button class="control-btn disable-btn" onclick="toggleConnection(this)">Entrar</button>
     </div>
 
 </header>
-<h2>users list</h2>
+<h2>Usuários</h2>
 <ul class="users" id="users">
 
 

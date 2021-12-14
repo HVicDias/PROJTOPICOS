@@ -17,7 +17,7 @@ body{
     flex-flow: column;
     margin: 0;
     padding: 0;
-    background-color: rgb(12 11 25);
+    background-image: url(img4.jpg);
     color: #fff;
 }
 header{
@@ -25,7 +25,7 @@ header{
     padding: 20px 0;
     width: 100%;
     height: fit-content;
-    background-color: rgb(15, 15, 44);
+    background: linear-gradient(to right,#561590,#BD51FC);
     color: #fff;
 
 }
@@ -58,9 +58,14 @@ header{
     margin-top: 15px;
 }
 .username-btn{
-    width: 200px;
-    margin: 10px auto;
-    padding: 10px 0;
+    cursor: pointer;
+	padding: 5px 15px;
+	background: linear-gradient(to right,#030233,#423FA4);
+	color: #fff;
+	border: 0;
+	font-size: 17px;
+	border-radius: 30px;
+    margin-left: 20px;
 }
 input{
     width: 200px;
@@ -70,16 +75,18 @@ input{
 
 #username-div{
     display: none;
+
 }
 #username-label{
     width: 200px;
     height: fit-content;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: rgb(12 11 25);
+    background-color: #060126;
     border-radius: 8px;
-    border: 2px solid rgb(26, 26, 77);
+    border: 2px solid #441073;
     cursor: pointer;
+    border-radius: 30px;
 }
 ul.users{
     width: 100%;
@@ -91,8 +98,26 @@ ul.users li{
     margin: 10px auto;
     padding: 10px 0;
     text-align: center;
-    background-color: rgb(15 15 44);
+    background: linear-gradient(to right,#3E3B5A,#D1D1D1);
     list-style: none;
-    color: #fff;
+    color: black;
+    font-weight: bold;
     border-radius: 8px;
+    font-size:20px;
+}
+
+#username{
+    border-radius: 30px;
+    border: 2px solid #441073;
+    background-color: #060126;
+    color:#fff;
+}
+
+.logo{
+    margin-left: -85%;
+    background-image: url(logo.png);
+    background-repeat: no repeat;
+    max-width:100%;
+    max-height:auto;
+
 }

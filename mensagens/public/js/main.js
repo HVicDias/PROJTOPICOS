@@ -10,6 +10,7 @@ const { username, room } = Qs.parse(location.search, {
 });
 
 const socket = io();
+const botName = 'Nebula';
 
 // Entrar no chat
 socket.emit('entrar', { username, room });
@@ -64,6 +65,9 @@ function retornaUsuarios(users) {
 // Retorna mensagem
 function retornaMessage(message) {
   const div = document.createElement('div');
+  if(message.username==="Nebula"){
+    div.classList.add('bot-nome')
+   }else
   div.classList.add('mensagem');
   const p = document.createElement('p');
   p.classList.add('meta');
